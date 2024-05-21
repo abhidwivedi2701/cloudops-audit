@@ -1,0 +1,460 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3c0561;
+    background-color: #f7f7f7;
+    background: linear-gradient(to right,
+                                  #2b0140 0%,      /* Dark purple on the left */
+                                  #601f99 50%,     /* Light purple in the middle */
+                                  #705d93 100%);   /* Very light color on the right */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.lets-talk-btn {
+    padding: 10px 20px;
+    background-color: #f30b0b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.video-block {
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.video-block {
+    width: 100%;
+    max-width: 2000px; /* Set a maximum width if needed */
+    height: 500px; /* Set the desired height */
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.video-block video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Hide default video controls */
+.video-block video::-webkit-media-controls {
+    display: none !important;
+}
+
+.video-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.video-text p {
+    margin: 0;
+    font-size: 54px; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+
+
+.image-block {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.image-block img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.image-text {
+    margin-top: 10px;
+}
+
+.image-text p {
+    font-size: 18px;
+    font-weight: bold;
+}
+.image-block {
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Set the desired text color */
+}
+
+.image-text p {
+    font-size: 54px; /* Set the desired font size */
+    font-weight: bold; /* Set the desired font weight */
+    margin: 0; /* Remove default margin */
+}
+.content-block {
+    margin-top: 40px;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center the block on the page */
+}
+
+.text-block {
+    flex: 1;
+    max-width: 600px; /* Adjust the max-width as needed */
+}
+
+.text-block p {
+    margin-bottom: 20px;
+    color: white; /* Change the text color to your desired color */
+    font-family: 'Arial', sans-serif; /* Change the font-family to your desired font */
+    font-style: italic; /* Make the text italic */
+}
+
+
+.image-block-audit {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-block-audit img {
+    margin-top: 70px;
+    max-width: 50%;
+    height: auto;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top:120px;
+    /* background-color: #fff; Added background color for distinction */
+    border-radius: 8px; /* Rounded corners for the heading */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    
+    
+}
+ 
+.heading h1 {
+    color: #ffffff;
+    font-size: 32px; /* Increased font size for emphasis */
+    padding: 10px 20px; /* Padding around the heading text */
+    
+    display: inline-block; /* Allows border to fit the content width */
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timeline {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ 
+/* Style for each timeline block */
+.timeline-block {
+    width: calc(30% - 20px);
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+ 
+/* Style for the content within each timeline block */
+.timeline-content {
+    text-align: center;
+}
+ 
+/* Hover effect for each timeline block */
+.timeline-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+ 
+/* Style for the strong element */
+.timeline-content strong {
+    color: #2b0140;
+    display: block;
+    margin-bottom: 10px;
+}
+ 
+/* Style for paragraph within the timeline content */
+.timeline-content p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+
+/* footer section */
+
+/* Style the main footer container */
+.simple-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color :white;
+    background-color: #f7f7f7;
+    background: linear-gradient(to right,
+                                #6b1c92 0%,      /* Dark purple on the left */
+                                #601f99 50%,     /* Light purple in the middle */
+                                #705d93 100%);   /* Very light color on the right */
+
+}
+
+/* Style the logo section */
+.logo-section {
+    flex: 1; /* Adjust the width of the logo section */
+    margin-bottom: 20px;
+    justify-items: left;
+    justify-content: left;
+}
+
+.logo {
+    width: 140px;
+    height: auto;
+}
+
+/* Style the social links section */
+.social-links {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    color:white;
+}
+.social-links a{
+    text-decoration: none;
+}
+.social-link {
+    margin: 0 10px;
+}
+
+/* Style the navigation section */
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.nav-section {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.nav-section p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nav-section ul {
+    list-style: none;
+    color:white;
+}
+
+.nav-section li {
+    margin-bottom: 5px;
+    color:white;
+}
+
+/* Style the copyright section */
+.copyright-section {
+    text-align: center; 
+}
+
+
+.container {
+    display: flex;
+}
+
+#quizContainer {
+    background-color: #8663b8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.pillar-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #8663b8;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+.pillar {
+    border: 1px solid rgb(73, 2, 73);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    /* Set cursor to pointer for a clickable appearance */
+    /* Add hover effect to highlight on hover */
+    transition: background-color 0.3s;
+    background-color: #d0d0d0;
+}
+ 
+.pillar:hover {
+    /* background-color: #d0d0d0; */
+} 
+
+.question {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    /* Blue button color */
+    color: white;
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    cursor: pointer;
+
+    margin-right: 10px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button:disabled {
+    background-color: #c0c0c0;
+    /* Disable button color */
+    cursor: not-allowed;
+    color:black;
+    border:2px solid rgb(44, 4, 44);
+}
+.question-indicator {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* footer section */
+.simple-footer {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    /* background-color: #333; Setting a background color for the footer */
+        background-color: #f7f7f7;
+    background: linear-gradient(to right,
+                                #58097f 0%,      /* Dark purple on the left */
+                                #601f99 50%,     /* Light purple in the middle */
+                                #573c88 100%);   /* Very light color on the right */
+    padding: 20px; /* Adding some padding for spacing */
+}
+ 
+/* Logo styling */
+.logo-section {
+    display: flex;
+    align-items: center; /* Align logo vertically centered */
+    margin-bottom: 20px; /* Add spacing below the logo */
+}
+ 
+.logo {
+    width: 150px; /* Adjust width as needed */
+}
+ 
+/* Navigation Section */
+.navigation {
+    display: flex;
+    gap: 100px; /* Add spacing between navigation items */
+}
+ 
+ 
+.nav-section p, .nav-section ul, .nav-section ul li, .nav-section ul li a {
+    color: white; /* Set color of text and links to white */
+    text-decoration: none; /* Remove underline */
+    font-size: large;
+}
+ 
+/* Social Links styling */
+.social-links {
+    display: flex;
+    gap: 10px; /* Add some space between social links */
+    margin-top: 20px; /* Add spacing above the social links */
+    align-items:flex-start;
+}
+ 
+.social-link img {
+    width: 30px; /* Adjust size of social icons */
+    height: 30px;
+}
+ 
+/* Copyright Section */
+.copyright-section {
+    margin-top: 20px; /* Add spacing above the copyright section */
+    color: white; /* Set color of copyright text to white */
+    font-size: larger;
+    font-weight: bolder;
+}
+.copyright-section a{
+    color:white;
+}
+
+
+

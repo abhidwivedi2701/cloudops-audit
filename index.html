@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NashTech Cloud Assessment</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <img src="assets/MicrosoftTeams-image.png" alt="Logo" width="100" height="100">
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="https://finops.ntglaunch.com/#">Home</a></li>
+                <li><a href="https://finops.ntglaunch.com/#">About</a></li>
+                <li><a href="https://finops.ntglaunch.com/#">Audit</a></li>
+                <li><a href="https://finops.ntglaunch.com/">Services</a></li>
+                <li><a href="https://finops.ntglaunch.com/#">Resources</a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <button class="lets-talk-btn">Get Started</button>
+        </div>
+    </nav>
+
+    <div class="video-block">
+      <video autoplay loop muted playsinline controls="false">
+          <source src="assets/video (2160p).mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+      <div class="video-text">
+          <p>Cloud Assessment</p>
+      </div>
+  </div>
+  
+  
+
+    <!-- <div class="image-block">
+        <img src="https://www.future-processing.com/blog/wp-content/uploads/2022/09/What-are-Cloud-computing-advantages-and-disadvantages-launch-cover.jpg" alt="WAF-audit">
+        <div class="image-text">
+            <p>Learning Assessment</p>
+        </div>
+    </div> -->
+
+
+    
+
+
+    <div class="heading">
+      <h1>
+        Steps for Cloud Readiness Assessment :
+      </h1>
+    </div>
+ 
+ 
+  <div class="timeline">
+      <!-- Block 1 -->
+      <div class="timeline-block">
+        <div class="timeline-content">
+          <strong>Identify the business objectives for your migration to the cloud</strong>
+          <p>Before you can devise your cloud migration strategy, it is imperative to understand why you want to move to the cloud. If you do not have an appropriate clarification, then it’s like throwing darts in the dark.</p>
+        </div>
+      </div>
+    
+      <!-- Block 2 -->
+      <div class="timeline-block">
+        <div class="timeline-content">
+          <strong>Assess the potential of your team and identify the skill gaps</strong>
+          <p>The next vital step is to understand what your in-house IT team is capable of. Once you have the answers to the ambiguities above, it’s important to fill the skill and resource gaps quickly.</p>
+        </div>
+      </div>
+    
+      <!-- Block 3 -->
+      <div class="timeline-block">
+        <div class="timeline-content">
+          <strong>Scrutinize your current IT infrastructure</strong>
+          <p>This step takes the forefront of your cloud readiness assessment as it helps you understand the feasibility of your cloud migration initiative. It involves examining the applications that you want to move to the cloud along with gathering sufficient information on your storage, network, data collection, operating environment, and on-premise hardware.</p>
+        </div>
+      </div>
+    
+      <!-- Block 4 -->
+      <div class="timeline-block">
+        <div class="timeline-content">
+          <strong>Identify your security requirements</strong>
+          <p>Security has always been the first and foremost concern for many organizations that are contemplating migrating to the cloud. Therefore, it is essential for any organization that shifts to the cloud to assess their current security mechanisms and identify what their security and compliance needs are.</p>
+        </div>
+      </div>
+    
+      <!-- Block 5 -->
+      <div class="timeline-block">
+        <div class="timeline-content">
+          <strong>Assess your operational readiness</strong>
+          <p>Despite the advent of cutting-edge technologies and tools, cloud operations have always been a difficult challenge to deal with. In this step, you will determine how ready you are to manage the operational aspects of the cloud.</p>
+        </div>
+      </div>
+    
+      <!-- Block 6 -->
+      <div class="timeline-block">
+        <div class="timeline-content">
+          <strong>Determine the budget</strong>
+          <p>Many organizations decide to move their applications to the cloud for compelling reasons such as scalability, performance, resiliency, cost-cutting, etc. Without adequate planning, a cloud infrastructure can surpass the costs that your on-premise infrastructure incurs and also exceed the estimated timeline.</p>
+        </div>
+      </div>
+    
+  </div>
+  
+
+<!-- 
+    <div class="maturity-model">
+        <h1>DevOps Maturity Model- Audit and Assessment</h1>
+        <img src="assets/model.png" alt="">
+    </div> -->
+
+
+
+    <div class="container">
+
+      <div class="pillar-container">
+        <div class="pillar" onclick="jumpToPillar(1)">
+          Business & Technical Strategy<span class="question-indicator" id="questionIndicator1"
+            >0</span
+          >
+        </div>
+  
+        <div class="pillar" onclick="jumpToPillar(2)">
+          Cloud Migration Strategy<span class="question-indicator" id="questionIndicator2"
+            >0</span
+          >
+        </div>
+  
+        <div class="pillar" onclick="jumpToPillar(3)">
+          Security & Compliance<span class="question-indicator" id="questionIndicator3"
+            >0</span
+          >
+        </div>
+  
+        <div class="pillar" onclick="jumpToPillar(4)">
+          Performance & Optimisation<span class="question-indicator" id="questionIndicator4"
+            >0</span
+          >
+        </div>
+  
+        <div class="pillar" onclick="jumpToPillar(5)">
+          Cost Analysis & Planning<span class="question-indicator" id="questionIndicator5"
+            >0</span
+          >
+        </div>
+  
+        <div class="pillar" onclick="jumpToPillar(6)">
+          Data & Application Assessment <span class="question-indicator" id="questionIndicator6"
+            >0</span
+          >
+        </div>
+        <!-- Repeat for other pillars -->
+      </div>
+  
+      <!-- Pillar container for side navigation -->
+      <!-- <div class="pillar-container">
+   <div class="pillar" onclick="jumpToPillar(1)">Pillar 1</div>
+   <div class="pillar" onclick="jumpToPillar(2)">Pillar 2</div>
+   <div class="pillar" onclick="jumpToPillar(3)">Pillar 3</div>
+   <div class="pillar" onclick="jumpToPillar(4)">Pillar 4</div>
+   <div class="pillar" onclick="jumpToPillar(5)">Pillar 5</div>
+   <div class="pillar" onclick="jumpToPillar(6)">Pillar 6</div>
+   </div> -->
+  
+   <div id="quizContainer">
+    <!-- Pillar 1 -->
+    <div class="pillar" id="pillar1">
+      <h2>Business & Technical Strategy</h2>
+      <div class="question" id="pillar1_q1">
+        <h3>Have you defined clear business objectives for migrating to the cloud?</h3>
+        <button onclick="showOptions('pillar1_q1')">Choose One</button>
+        <select
+          name="pillar1_q1"
+          id="pillar1_q1_select"
+          style="display: none"
+          onchange="enableNextButton('pillar1_indicator', 'pillar1_q1','1',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+          
+        </select>
+      </div>
+
+      <div class="question" id="pillar1_q2">
+        <h3>Are key stakeholders involved in the cloud migration decision-making process? </h3>
+        <button onclick="showOptions('pillar1_q2')">Choose One</button>
+        <select
+          name="pillar1_q2"
+          id="pillar1_q2_select"
+          style="display: none"
+          onchange="enableNextButton('pillar1_indicator', 'pillar1_q2','1',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+          
+        </select>
+      </div>
+      <div class="question" id="pillar1_q3">
+        <h3>Is your cloud migration strategy aligned with your overall business strategy? </h3>
+        <button onclick="showOptions('pillar1_q3')">Choose One</button>
+        <select
+          name="pillar1_q3"
+          id="pillar1_q3_select"
+          style="display: none"
+          onchange="enableNextButton('pillar1_indicator', 'pillar1_q3','1',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+          
+        </select>
+      </div>
+      <div class="question" id="pillar1_q4">
+        <h3>Have you evaluated different cloud service providers based on features and reputation?  </h3>
+        <button onclick="showOptions('pillar1_q4')">Choose One</button>
+        <select
+          name="pillar1_q4"
+          id="pillar1_q4_select"
+          style="display: none"
+          onchange="enableNextButton('pillar1_indicator', 'pillar1_q4','1',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="0">Yes</option>
+          <option value="1">No</option>
+          
+        </select>
+      </div>
+      <div class="question" id="pillar1_q5">
+        <h3>Have you defined a governance framework for cloud resource management and monitoring? </h3>
+        <button onclick="showOptions('pillar1_q5')">Choose One</button>
+        <select
+          name="pillar1_q5"
+          id="pillar1_q5_select"
+          style="display: none"
+          onchange="enableNextButton('pillar1_indicator', 'pillar1_q5','1',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="0">Yes</option>
+          <option value="1">No</option>
+          
+        </select>
+      </div>
+
+      <!-- Add more questions for Pillar 1 -->
+      <!-- Repeat this structure for Questions 2 to 5 in Pillar 1 -->
+      <!-- Add pillar indicator -->
+      <div class="pillar-indicator">
+        <span id="pillar1_indicator" style="font-size: 25px;font-weight: 700;">0</span><span style="font-size: 25px;font-weight: 700;">/5</span>
+      </div>
+    </div>
+
+
+
+    <!-- Pillar 2 -->
+    <div class="pillar" id="pillar2" style="display: none">
+      <h2>Cloud Migration Strategy </h2>
+      <div class="question" id="pillar2_q1">
+        <h3>Have you decided on the preferred cloud deployment model: public, private, hybrid, or multi-cloud?  </h3>
+        <button onclick="showOptions('pillar2_q1')">Choose One</button>
+        <select
+          name="pillar2_q1"
+          id="pillar2_q1_select"
+          style="display: none"
+          onchange="enableNextButton('pillar2_indicator', 'pillar2_q1','2',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+          
+        </select>
+      </div>
+
+      <div class="question" id="pillar2_q2">
+        <h3>Have you evaluated the suitability of different cloud service models: IaaS, PaaS, SaaS?  </h3>
+        <button onclick="showOptions('pillar2_q2')">Choose One</button>
+        <select
+          name="pillar2_q2"
+          id="pillar2_q2_select"
+          style="display: none"
+          onchange="enableNextButton('pillar2_indicator', 'pillar2_q2','2',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+        
+        </select>
+      </div>
+      <div class="question" id="pillar2_q3">
+        <h3>Have you determined the migration approach: lift and shift, re-platform, re-factor, or rebuild? </h3>
+        <button onclick="showOptions('pillar2_q3')">Choose One</button>
+        <select
+          name="pillar2_q3"
+          id="pillar2_q3_select"
+          style="display: none"
+          onchange="enableNextButton('pillar2_indicator', 'pillar2_q3','2',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="question" id="pillar2_q4">
+        <h3>Have you developed a step-by-step migration plan with timelines and milestones? </h3>
+        <button onclick="showOptions('pillar2_q4')">Choose One</button>
+        <select
+          name="pillar2_q4"
+          id="pillar2_q4_select"
+          style="display: none"style="display: none"
+          onchange="enableNextButton('pillar2_indicator', 'pillar2_q4','2',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+          
+        </select>
+      </div>
+      <div class="question" id="pillar2_q5">
+        <h3>Have you prioritized applications and data for migration based on business impact?</h3>
+        <button onclick="showOptions('pillar2_q5')">Choose One</button>
+        <select
+          name="pillar2_q5"
+          id="pillar2_q5_select"
+          style="display: none"
+          onchange="enableNextButton('pillar2_indicator', 'pillar2_q5','2',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+          
+        </select>
+      </div>
+
+      <!-- Add more questions for Pillar 1 -->
+      <!-- Repeat this structure for Questions 2 to 5 in Pillar 1 -->
+      <!-- Add pillSustainabilityar indicator -->
+      <div class="pillar-indicator">
+        <span id="pillar2_indicator" style="font-size: 25px;font-weight: 700;">0</span><span style="font-size: 25px;font-weight: 700;">/5</span>
+      </div>
+    </div>
+
+
+
+    <!--Pillar 3 -->
+    <div class="pillar" id="pillar3" style="display: none">
+      <h2>Security & Compliance      </h2>
+      <div class="question" id="pillar3_q1">
+        <h3>Have you reviewed your current security policies and controls? </h3>
+        <button onclick="showOptions('pillar3_q1')">Choose One</button>
+        <select
+          name="pillar3_q1"
+          id="pillar3_q1_select"
+          style="display: none"
+          onchange="enableNextButton('pillar3_indicator', 'pillar3_q1','3',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+          
+        </select>
+      </div>
+
+      <div class="question" id="pillar3_q2">
+        <h3>Have you assessed compliance requirements and industry regulations? </h3>
+        <button onclick="showOptions('pillar3_q2')">Choose One</button>
+        <select
+          name="pillar3_q2"
+          id="pillar3_q2_select"
+          style="display: none"
+          onchange="enableNextButton('pillar3_indicator', 'pillar3_q2','3',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+          
+        </select>
+      </div>
+      <div class="question" id="pillar3_q3">
+        <h3>Have you planned a strategy to secure your cloud resources and data? </h3>
+        <button onclick="showOptions('pillar3_q3')">Choose One</button>
+        <select
+          name="pillar3_q3"
+          id="pillar3_q3_select"
+          style="display: none"
+          onchange="enableNextButton('pillar3_indicator', 'pillar3_q3','3',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+          
+        </select>
+      </div>
+      <div class="question" id="pillar3_q4">
+        <h3>Have you assessed data privacy and compliance requirements (e.g., GDPR, HIPAA)? </h3>
+        <button onclick="showOptions('pillar3_q4')">Choose One</button>
+        <select
+          name="pillar3_q4"
+          id="pillar3_q4_select"
+          style="display: none"style="display: none"
+          onchange="enableNextButton('pillar3_indicator', 'pillar3_q4','3',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+          
+        </select>
+      </div>
+      <div class="question" id="pillar3_q5">
+        <h3>Have you defined policies and controls for data access, sharing, and encryption?  </h3>
+        <button onclick="showOptions('pillar3_q5')">Choose One</button>
+        <select
+          name="pillar3_q5"
+          id="pillar3_q5_select"
+          style="display: none"
+          onchange="enableNextButton('pillar3_indicator', 'pillar3_q5','3',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+
+      <!-- Add more questions for Pillar 1 -->
+      <!-- Repeat this structure for Questions 2 to 5 in Pillar 1 -->
+      <!-- Add pillar indicator -->
+      <div class="pillar-indicator">
+        <span id="pillar3_indicator" style="font-size: 25px;font-weight: 700;">0</span><span style="font-size: 25px;font-weight: 700;">/5</span>
+      </div>
+    </div>
+
+
+    <!-- pillar 4 -->
+    <div class="pillar" id="pillar4" style="display: none">
+      <h2>Performance & Optimisation       </h2>
+      <div class="question" id="pillar4_q1">
+        <h3>Have you evaluated your application performance requirements? </h3>
+        <button onclick="showOptions('pillar4_q1')">Choose One</button>
+        <select
+          name="pillar4_q1"
+          id="pillar4_q1_select"
+          style="display: none"
+          onchange="enableNextButton('pillar4_indicator', 'pillar4_q1','4',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+
+      <div class="question" id="pillar4_q2">
+        <h3>Have you determined your scalability needs and if cloud services can meet them? </h3>
+        <button onclick="showOptions('pillar4_q2')">Choose One</button>
+        <select
+          name="pillar4_q2"
+          id="pillar4_q2_select"
+          style="display: none"
+          onchange="enableNextButton('pillar4_indicator', 'pillar4_q2','4',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="question" id="pillar4_q3">
+        <h3>Have you planned for load balancing, auto-scaling, and performance monitoring?</h3>
+        <button onclick="showOptions('pillar4_q3')">Choose One</button>
+        <select
+          name="pillar4_q3"
+          id="pillar4_q3_select"
+          style="display: none"
+          onchange="enableNextButton('pillar4_indicator', 'pillar4_q3','4',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="question" id="pillar4_q4">
+        <h3>Have you established baseline performance metrics and alert thresholds? </h3>
+        <button onclick="showOptions('pillar4_q4')">Choose One</button>
+        <select
+          name="pillar4_q4"
+          id="pillar4_q4_select"
+          style="display: none"style="display: none"
+          onchange="enableNextButton('pillar4_indicator', 'pillar4_q4','4',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="question" id="pillar4_q5">
+        <h3>Have you identified tools and methods for monitoring cloud resource performance?</h3>
+        <button onclick="showOptions('pillar4_q5')">Choose One</button>
+        <select
+          name="pillar4_q5"
+          id="pillar4_q5_select"
+          style="display: none"
+          onchange="enableNextButton('pillar4_indicator', 'pillar4_q5','4',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+
+      <!-- Add more questions for Pillar 1 -->
+      <!-- Repeat this structure for Questions 2 to 5 in Pillar 1 -->
+      <!-- Add pillar indicator -->
+      <div class="pillar-indicator">
+        <span id="pillar4_indicator" style="font-size: 25px;font-weight: 700;">0</span><span style="font-size: 25px;font-weight: 700;">/5</span>
+      </div>
+    </div>
+
+    <!-- pillar 5 -->
+    <div class="pillar" id="pillar5" style="display: none">
+      <h2>Cost Analysis & Planning        </h2>
+      <div class="question" id="pillar5_q1">
+        <h3>Have you estimated your current IT infrastructure costs? </h3>
+        <button onclick="showOptions('pillar5_q1')">Choose One</button>
+        <select
+          name="pillar5_q1"
+          id="pillar5_q1_select"
+          style="display: none"
+          onchange="enableNextButton('pillar5_indicator', 'pillar5_q1','5',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+          
+        </select>
+      </div>
+
+      <div class="question" id="pillar5_q2">
+        <h3>Have you compared costs between on-premises and cloud environments? </h3>
+        <button onclick="showOptions('pillar5_q2')">Choose One</button>
+        <select
+          name="pillar5_q2"
+          id="pillar5_q2_select"
+          style="display: none"
+          onchange="enableNextButton('pillar5_indicator', 'pillar5_q2','5',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+          
+        </select>
+      </div>
+      <div class="question" id="pillar5_q3">
+        <h3>Have you projected cloud migration costs, considering compute, storage, and data transfer? </h3>
+        <button onclick="showOptions('pillar5_q3')">Choose One</button>
+        <select
+          name="pillar5_q3"
+          id="pillar5_q3_select"
+          style="display: none"
+          onchange="enableNextButton('pillar5_indicator', 'pillar5_q3','5',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="question" id="pillar5_q4">
+        <h3>Have you considered the long-term cost implications of cloud services, including potential scalability and usage changes?</h3>
+        <button onclick="showOptions('pillar5_q4')">Choose One</button>
+        <select
+          name="pillar5_q4"
+          id="pillar5_q4_select"
+          style="display: none"style="display: none"
+          onchange="enableNextButton('pillar5_indicator', 'pillar5_q4','5',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+         
+        </select>
+      </div>
+      <div class="question" id="pillar5_q5">
+        <h3>Are you factoring in additional costs such as licensing fees, training, and support when transitioning to the cloud? </h3>
+        <button onclick="showOptions('pillar5_q5')">Choose One</button>
+        <select
+          name="pillar5_q5"
+          id="pillar5_q5_select"
+          style="display: none"
+          onchange="enableNextButton('pillar5_indicator', 'pillar5_q5','5',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+         
+        </select>
+      </div>
+
+      <!-- Add more questions for Pillar 1 -->
+      <!-- Repeat this structure for Questions 2 to 5 in Pillar 1 -->
+      <!-- Add pillar indicator -->
+      <div class="pillar-indicator">
+        <span id="pillar5_indicator" style="font-size: 25px;font-weight: 700;">0</span><span style="font-size: 25px;font-weight: 700;">/5</span>
+      </div>
+    </div>
+
+    <!-- pillar 6 -->
+    <div class="pillar" id="pillar6" style="display: none">
+      <h2>Data & Application Assessment</h2>
+      <div class="question" id="pillar6_q1">
+        <h3>Have you identified all data sources, databases, and data storage solutions? </h3>
+        <button onclick="showOptions('pillar6_q1')">Choose One</button>
+        <select
+          name="pillar6_q1"
+          id="pillar6_q1_select"
+          style="display: none"
+          onchange="enableNextButton('pillar6_indicator', 'pillar6_q1','6',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+          
+        </select>
+      </div>
+
+      <div class="question" id="pillar6_q2">
+        <h3>Have you considered data security and compliance requirements?  </h3>
+        <button onclick="showOptions('pillar6_q2')">Choose One</button>
+        <select
+          name="pillar6_q2"
+          id="pillar6_q2_select"
+          style="display: none"
+          onchange="enableNextButton('pillar6_indicator', 'pillar6_q2','6',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+          
+        </select>
+      </div>
+      <div class="question" id="pillar6_q3">
+        <h3>Have you planned for data migration, including cleansing and transformation?  </h3>
+        <button onclick="showOptions('pillar6_q3')">Choose One</button>
+        <select
+          name="pillar6_q3"
+          id="pillar6_q3_select"
+          style="display: none"
+          onchange="enableNextButton('pillar6_indicator', 'pillar6_q3','6',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="question" id="pillar6_q4">
+        <h3>Have you identified all applications and their dependencies? </h3>
+        <button onclick="showOptions('pillar6_q4')">Choose One</button>
+        <select
+          name="pillar6_q4"
+          id="pillar6_q4_select"
+          style="display: none"style="display: none"
+          onchange="enableNextButton('pillar6_indicator', 'pillar6_q4','6',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="question" id="pillar6_q5">
+        <h3>Have you categorized applications based on their importance and complexity? </h3>
+        <button onclick="showOptions('pillar6_q5')">Choose One</button>
+        <select
+          name="pillar6_q5"
+          id="pillar6_q5_select"
+          style="display: none"
+          onchange="enableNextButton('pillar6_indicator', 'pillar6_q5','6',value)"
+        >
+          <option value="choose">Choose an option</option>
+          <option value="5">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+
+      <!-- Add more questions for Pillar 1 -->
+      <!-- Repeat this structure for Questions 2 to 5 in Pillar 1 -->
+      <!-- Add pillar indicator -->
+      <div class="pillar-indicator">
+        <span id="pillar6_indicator" style="font-size: 25px;font-weight: 700;">0</span><span style="font-size: 25px;font-weight: 700;">/5</span>
+      </div>
+    </div>
+
+    <button onclick="showNextPillar()" id="nextButton" disabled>
+      Next Pillar
+    </button>
+    <button
+      onclick="calculatePoints()"
+      id="calculateButton"
+      style="display: none"
+    >
+      Calculate Points
+    </button>
+  </div>
+
+    </div>
+
+
+
+    <footer class="simple-footer">
+      <div class="container">
+          <!-- Logo Section -->
+          <div class="logo-section">
+              <img src="assets/MicrosoftTeams-image.png" alt="NashTech Logo" class="logo">
+          </div>
+  
+          <!-- Navigation Section -->
+          <div class="navigation">
+              <!-- NashTech -->
+              <div class="nav-section">
+                  <p>NashTech</p>
+                  <ul>
+                    <li><a href="https://finops.ntglaunch.com/#">Contact us</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Careers</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Our locations</a></li>
+                </ul>
+              </div>
+  
+              <!-- Home -->
+              <div class="nav-section">
+                  <p>Home</p>
+                  <ul>
+                    <li><a href="https://finops.ntglaunch.com/#">Our Solutions</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Partners</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Our Thinking</a></li>
+                  </ul>
+              </div>
+  
+              <!-- Useful Links -->
+              <div class="nav-section">
+                  <p>Useful Links</p>
+                  <ul>
+                    <li><a href="https://finops.ntglaunch.com/#">Privacy Notices</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Modern Slavery</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Nash Accelerators</a></li>
+                  </ul>
+              </div>
+  
+              <!-- Support -->
+              <div class="nav-section">
+                  <p>Support</p>
+                  <ul>
+                    <li><a href="https://finops.ntglaunch.com/#">Knowledge Base</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Contact Support</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Privacy Policy</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">TOS</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="https:/#" class="social-link" target="_blank">
+              <img src="assets/social-icons/facebook.png" alt="Facebook">
+          </a>
+          <a href="https:/#" class="social-link" target="_blank">
+              <img src="assets/social-icons/twitter.png" alt="Twitter">
+          </a>
+          <a href="https:/#" class="social-link" target="_blank">
+              <img src="assets/social-icons/youtube.png" alt="YouTube">
+          </a>
+          <a href="https:/#" class="social-link" target="_blank">
+              <img src="assets/social-icons/linkedin.png" alt="LinkedIn">
+          </a>
+          </div>
+  
+          <!-- Copyright Section -->
+          <div class="copyright-section">
+            <p>© 2023 · <a href="https://finops.ntglaunch.com/" target="_self" rel="home" aria-current="page">NashFinOpsNex</a> · All rights reserved</p>
+          </div>
+      </div>
+  </footer>
+  
+    
+<!-- 
+    <footer class="simple-footer">
+        <div class="logo-section">
+            <img src="assets/MicrosoftTeams-image.png" alt="NashTech Logo" class="logo">
+        </div>
+    
+       
+    
+        <div class="navigation">
+            <div class="nav-section">
+                <p>NashTech</p>
+                <ul>
+                    <li><a href="https://finops.ntglaunch.com/#">Contact us</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Careers</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Our locations</a></li>
+                </ul>
+            </div>
+    
+            <div class="nav-section">
+                <p>Home</p>
+                <ul>
+                    <li><a href="https://finops.ntglaunch.com/#">Our Solutions</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Partners</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Our Thinking</a></li>
+                </ul>
+            </div>
+    
+            <div class="nav-section">
+                <p>Useful Links</p>
+                <ul>
+                    <li><a href="https://finops.ntglaunch.com/#">Privacy Notices</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Modern Slavery</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Nash Accelerators</a></li>
+                </ul>
+            </div>
+    
+            <div class="nav-section">
+                <p>Support</p>
+                <ul>
+                    <li><a href="https://finops.ntglaunch.com/#">Knowledge Base</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Contact Support</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">Privacy Policy</a></li>
+                    <li><a href="https://finops.ntglaunch.com/#">TOS</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="social-links">
+          <a href="https:/#" class="social-link" target="_blank">
+              <img src="facebook-icon.png" alt="Facebook">
+          </a>
+          <a href="https:/#" class="social-link" target="_blank">
+              <img src="twitter-icon.png" alt="Twitter">
+          </a>
+          <a href="https:/#" class="social-link" target="_blank">
+              <img src="youtube-icon.png" alt="YouTube">
+          </a>
+          <a href="https:/#" class="social-link" target="_blank">
+              <img src="linkedin-icon.png" alt="LinkedIn">
+          </a>
+      </div>
+    
+        <div class="copyright-section">
+            <p>© 2023 · <a href="https://finops.ntglaunch.com/" target="_self" rel="home" aria-current="page">NashFinOpsNex</a> · All rights reserved</p>
+        </div>
+    </footer> -->
+
+    <script>
+      let currentPillar = 1;
+      var previousSelectedValues = {};
+      let questionCounters = [0, 0, 0, 0, 0, 0]; // Initialize counters for each pillar
+      const calculateButton = document.getElementById("calculateButton");
+      const nextButton = document.getElementById("nextButton");
+
+      function showNextPillar() {
+        document.getElementById(`pillar${currentPillar}`).style.display =
+          "none";
+        if (currentPillar <= 5) {
+          currentPillar++;
+        }
+        const nextPillar = document.getElementById(`pillar${currentPillar}`);
+
+        if (nextPillar) {
+          nextPillar.style.display = "block";
+        }
+
+        // Toggle the visibility of buttons based on the current pillar
+        if (currentPillar === 6) {
+          nextButton.style.display = "none";
+          calculateButton.style.display = "inline-block";
+        } else {
+          nextButton.style.display = "inline-block";
+          calculateButton.style.display = "none";
+        }
+
+        // Disable next button until an option is selected
+        nextButton.disabled = true;
+      }
+
+      // Show Pillar 1 initially
+      document.getElementById("pillar1").style.display = "block";
+
+      function showOptions(questionId) {
+        const button = document.querySelector(`#${questionId} button`);
+        const select = document.querySelector(`#${questionId}_select`);
+
+        if (button && select) {
+          button.style.display = "none";
+          select.style.display = "inline-block";
+        }
+      }
+
+      function enableNextButton(indicatorId, questionId, index,value) {
+        nextButton.disabled = false;
+
+        
+        const questionIndicator = document.getElementById(indicatorId);
+
+        const currentCount = parseInt(questionIndicator.textContent);
+        const questionIndicator1 = document.getElementById(
+          `questionIndicator${index}`
+        );
+        if(value==="choose"){
+          previousSelectedValues="";
+          questionIndicator.textContent = (currentCount - 1).toString();
+            questionIndicator1.textContent = (currentCount - 1).toString();
+            
+            return false;
+          
+        }
+     if (previousSelectedValues !== questionId ) {
+          if (!isNaN(currentCount) && currentCount < 5) {
+            questionIndicator.textContent = (currentCount + 1).toString();
+            questionIndicator1.textContent = (currentCount + 1).toString();
+          }
+        }
+        previousSelectedValues = questionId;
+       
+        // // Increment the global counter for the specific pillar
+        //  questionCounters[pillarIndex - 1] += 1;
+      }
+
+      function jumpToPillar(pillarNumber) {
+        // Hide all pillars
+        for (let i = 1; i <= 6; i++) {
+          document.getElementById(`pillar${i}`).style.display = "none";
+        }
+
+        // Show the selected pillar
+        currentPillar = pillarNumber;
+        const selectedPillar = document.getElementById(
+          `pillar${currentPillar}`
+        );
+        if (selectedPillar) {
+          selectedPillar.style.display = "block";
+        }
+
+        // Toggle the visibility of buttons based on the current pillar
+        if (currentPillar === 6) {
+          nextButton.style.display = "none";
+          calculateButton.style.display = "inline-block";
+        } else {
+          nextButton.style.display = "inline-block";
+          calculateButton.style.display = "none";
+        }
+
+        // Disable next button until an option is selected
+        nextButton.disabled = true;
+      }
+
+//       function calculatePoints() {
+//         let totalPoints = 0;
+
+//         for (let pillarIndex = 1; pillarIndex <= 6; pillarIndex++) {
+//           for (let questionIndex = 1; questionIndex <= 5; questionIndex++) {
+//             const questionName = `pillar${pillarIndex}_q${questionIndex}`;
+//             const selectedOption = document.querySelector(
+//               `select[name="${questionName}"]`
+//             );
+
+//             if (selectedOption && selectedOption.value !== "choose") {
+//               totalPoints += parseInt(selectedOption.value);
+//             }
+//           }
+//         }
+
+//                // alert(`Total Points: ${totalPoints}`);
+//                if (totalPoints >= 0 && totalPoints <= 50) {
+//     alert(`Your Audit and Assessment score is : ${totalPoints} points. Poor score`);
+// } else if (totalPoints >= 50 && totalPoints <= 100) {
+//     alert(`Your Audit and Assessment score is : ${totalPoints} points. Good score`);
+// } else if (totalPoints > 100 && totalPoints <= 150) {
+//     alert(`Your Audit and Assessment score is : ${totalPoints} points. Excellent score`);
+// } else {
+//     alert(`Your Total Points: ${totalPoints}`);
+// }
+//       }
+//     </
+
+function calculatePoints() {
+  let totalPoints = 0;
+
+  // Your existing logic to calculate totalPoints
+  for (let pillarIndex = 1; pillarIndex <= 6; pillarIndex++) {
+    for (let questionIndex = 1; questionIndex <= 5; questionIndex++) {
+      const questionName = `pillar${pillarIndex}_q${questionIndex}`;
+      const selectedOption = document.querySelector(`select[name="${questionName}"]`);
+
+      if (selectedOption && selectedOption.value !== "choose") {
+        totalPoints += parseInt(selectedOption.value);
+      }
+    }
+  }
+
+  // Create a custom popup with the score message and buttons
+  let message;
+if (totalPoints >= 0 && totalPoints <= 50) {
+  message = `Your Audit and Assessment score is: ${totalPoints} points. Poor score`;
+} else if (totalPoints >= 50 && totalPoints <= 100) {
+  message = `Your Audit and Assessment score is: ${totalPoints} points. Good score`;
+} else if (totalPoints > 100 && totalPoints <= 150) {
+  message = `Your Audit and Assessment score is: ${totalPoints} points. Excellent score`;
+} else {
+  message = `Your Total Points: ${totalPoints}`;
+}
+
+const popup = document.createElement('div');
+popup.className = 'custom-popup';
+popup.innerHTML = `
+  <p>${message}</p>
+  <div class="details-text">For more details : </div>
+  <div class="button-container">
+    <a href="https://staging.knoldus.com/" target="_blank"><button>Contact Us</button></a>
+    <button onclick="closePopup()">Close</button>
+  </div>
+`;
+
+document.body.appendChild(popup);
+}
+
+function closePopup() {
+const popup = document.querySelector('.custom-popup');
+if (popup) {
+  popup.remove();
+}
+}
+</script>
+<style>
+.custom-popup {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 30px;
+background-color: #f9f9f9;
+text-align: center; /* Center the text */
+}
+
+.custom-popup .details-text {
+text-align: left; /* Align text to the left */
+font-style: italic; /* Italicize the text */
+margin-bottom: 10px; /* Add margin for spacing */
+ color:rgb(108, 105, 105);
+}
+
+.custom-popup .button-container {
+margin-top: 20px; /* Add margin to create a gap */
+}
+
+.custom-popup .button-container button {
+margin: 0 10px; /* Add margin to create a gap */
+}
+</style>
+</body>
+</html>
